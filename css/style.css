@@ -1,0 +1,165 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #373737;
+  background-color: #F5F6F7; }
+
+* {
+  box-sizing: border-box; }
+
+.community {
+  margin: 120px 0; }
+
+.community-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.community__content {
+  margin-right: 80px;
+  text-align: center;
+  width: 177px;
+  color: #373737; }
+
+.community__content-logo {
+  margin-bottom: 25px; }
+
+.community__content-title {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 18px; }
+
+.community__content-text {
+  font-size: 10px;
+  font-weight: 500; }
+
+.community__item-photo1 {
+  margin-right: 25px; }
+
+.subscribe {
+  background: url(../img/Livello3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100;
+  height: 790px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 85px; }
+
+.subscribe__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.subscribe__title {
+  letter-spacing: 1.5px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 28px; }
+
+.subscribe__form {
+  display: flex; }
+
+.subscribe__form-btn {
+  background-color: #16A085;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center; }
+
+.subscribe__form-input {
+  height: 60px;
+  width: 280px;
+  display: block;
+  padding: 0 20px; }
+
+.subscribe__form-input::placeholder {
+  font-weight: medium;
+  font-size: 16px; }
+
+.download {
+  text-align: center;
+  margin-bottom: 116px; }
+
+.download__title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px; }
+
+.download__text {
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: medium;
+  margin-bottom: 40px; }
+
+.download__content {
+  display: flex;
+  flex-direction: column;
+  max-width: 703px;
+  margin: 0 auto; }
+
+.download__buttons {
+  display: flex;
+  justify-content: center; }
+
+.download__item {
+  display: flex; }
+
+.download__item:not(:first-child) {
+  margin-left: 26px; }
+
+.download__btn {
+  text-align: left;
+  padding-left: 24px;
+  width: 240px;
+  height: 56px;
+  border: none;
+  outline: none;
+  background: #1ABC9C;
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  cursor: pointer; }
+
+.download__img {
+  width: 56px;
+  height: 56px;
+  background: #16A085;
+  display: flex;
+  justify-content: center; }
+
+.footer {
+  background-color: #fff;
+  padding: 38px 0; }
+
+.footer__wrapper {
+  margin: 0 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.footer__nav {
+  margin-bottom: 17px; }
+
+.footer__link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  color: #373737; }
+
+.footer__span {
+  color: #16A085;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 8px; }
+
+.footer__copyright {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1.6px; }
